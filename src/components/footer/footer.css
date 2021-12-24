@@ -1,0 +1,35 @@
+.chat_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border-top: 1px solid lightgray   ;
+}
+.emoji_icon{
+    margin-left: 20px ;
+    color:  gray;
+    font-size: 35px;
+}
+.mic_icon{
+    margin-right: 20px ;
+    color: gray;
+    font-size: 35px;
+}
+
+.chat_footer>form{
+    flex: 1;
+    display: flex;
+}
+
+.chat_footer>form>input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color:black;
+    outline-width: 0px;
+}
+.chat_footer>form>button{
+    display: none;
+}
